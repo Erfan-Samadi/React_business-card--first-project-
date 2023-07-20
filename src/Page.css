@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme {
+  display: block;
+
+}
+
+.container {
+  margin-top: 5em 0em;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.ifo-section {
+  padding-bottom: 2em;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.button a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button img {
+  margin-right: 0.4em;
+  display: inline;
+  
+}
+
+.about-container,
+.interests-container {
+  padding: 1em 0em;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  padding: 0.5em 0em 0em 0em;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 0.5em;
+}
